@@ -1,7 +1,23 @@
 body {
-    background-color: blue; 
+    background-color: rgb(107, 194, 67); 
 }
 
 nav {
-
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
 }
+
+.nav-item {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+footer h2 {
+    font-size: 11px;
+}
+
