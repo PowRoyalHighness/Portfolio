@@ -1,5 +1,5 @@
 body {
-    background-image: url("");
+    background-color: rgb(255, 111, 0);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center, center center;
@@ -24,24 +24,15 @@ nav button {
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
+
 }
 
 nav button:hover {
-    background-color: rgb(69, 160, 73);
-}
-
-.name {
-    font-size: 40px;
+    background-color: rgb(144 0 201);
 }
 
 .nav-item {
     display: flex;
-}
-
-footer h2 {
-    font-size: 12px;
-    color: white;
-    font-family: revert;
 }
 
 nav ul {
@@ -52,24 +43,59 @@ nav ul {
     justify-content: flex-end;
 }
 
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+    display: block;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+li {
+    font-family: "Roboto", sans-serif;
+}
+.name {
+    font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+    background-image: linear-gradient(120deg, #b65501, #bc00c0);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+
+footer h2 {
+    font-size: 12px;
+    color: white;
+}
+
+.hobbies {
+    padding-top: 105px;
+}
+
+.hobbies p{
+    font-size: 24px;
+}
+
 .about {
     display: flex;
 }
 
 .about img {
     width: 400px;
+    height: 400px;
+    padding-left: 40px;
+}
+
+.skills li {
+    list-style-type: none;
+    padding-top: 15px;
 }
 
 .hobbies li {
     list-style: none;
-    font-family: sans-serif;
-    padding-top: 10px
-}
-
-p {
-    display: block;
-    font-size: 18px;
-    font-family: sans-serif;
+    padding-top: 10px;
 }
 
 footer {
@@ -79,13 +105,8 @@ footer {
     border-radius: 5px;
     position: fixed;
     bottom: 0px;
-    gap: 12rem;
+    gap: auto;
     padding-left: 3px;
     padding-right: 3px;
     align-content: center;
-}
-
-.skills li {
-    list-style-type: none;
-    padding-top: 15px;
 }
