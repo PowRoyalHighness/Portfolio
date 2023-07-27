@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(255, 111, 0);
-    background-repeat: no-repeat;
+    background-color: #131313;
     background-size: cover;
-    background-position: center center, center center;
+    background-position: center;
+    background-repeat: no-repeat;
     flex-direction: column;
     max-width: 900px;
     margin-left: auto;
@@ -16,7 +16,7 @@ nav {
 }
 
 nav button {
-    background-color: rgba(255, 80, 0, 0.73);
+    background-color: #131313;
     border: none;
     color: white;
     padding: 5px 10px;
@@ -28,7 +28,7 @@ nav button {
 }
 
 nav button:hover {
-    background-color: rgb(144 0 201);
+    background-color: #D32295;
 }
 
 .nav-item {
@@ -45,57 +45,35 @@ nav ul {
 
 h2 {
     font-family: "Roboto Condensed", sans-serif;
+    color: white;
+}
+
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    font-size: 20px;
 }
 
 p {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Roboto", sans-serif;
+    color: white;
 }
 
 li {
     font-family: "Roboto", sans-serif;
-}
-.name {
-    font-size: 50px;
-    font-family: "Roboto Condensed", sans-serif;
-    background-image: linear-gradient(120deg, #b65501, #bc00c0);
-    -webkit-background-clip: text; 
-    background-clip: text;
-    color: transparent;
-}
-
-footer h2 {
-    font-size: 12px;
     color: white;
 }
 
-.hobbies {
-    padding-top: 105px;
-}
 
-.hobbies p{
-    font-size: 24px;
-}
-
-.about {
-    display: flex;
-}
-
-.about img {
-    width: 400px;
-    height: 400px;
-    padding-left: 40px;
-}
-
-.skills li {
-    list-style-type: none;
-    padding-top: 15px;
-}
-
-.hobbies li {
-    list-style: none;
-    padding-top: 10px;
+.name {
+    font-size: 48px;
+    font-family: "Roboto Condensed", sans-serif;
+    background-image: linear-gradient(98deg, #4BE280 12% -27%, #D32295 100%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
 }
 
 footer {
@@ -109,4 +87,9 @@ footer {
     padding-left: 3px;
     padding-right: 3px;
     align-content: center;
+}
+
+footer h2 {
+    font-size: 12px;
+    color: white;
 }
