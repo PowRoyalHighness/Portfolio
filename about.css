@@ -37,7 +37,7 @@
     width: fit-content;
     text-align: center;
     border: 1px solid white;
-    overflow-x: none;
+    overflow-x: hidden;
 }
 
 .hobbies h3 {
