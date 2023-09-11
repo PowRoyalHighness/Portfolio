@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="./inst_skill.css">
-        <title>Portfolio: Instruction & Skills</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./inst_skill.css">
+    <title>Portfolio: Instruction & Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script defer src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
         <nav>
             <h1 class="name">Gaetano Adiletta</h1>
             <ul>
@@ -22,60 +26,55 @@
                     <a href="./projects.html"><button>Projects</button></a>
                 </li>
             </ul>
-        </nav> 
-        <section class="instruction">
+        </nav>
+
+        <h2 class="inst_title">My instruction</h2>
+        <div class="instruction">
             <section class="School">
-                <h2>My instruction</h2>
-            <h3>School Experience (09/2014 - 06/2020)</h3>
-            <p>
-                I went to High School in a small city called Civita Castellana
-                near Viterbo with the idea of starting to study coding and informatics
-                but in the end I studied chemistry, ending up becoming a chemical expert.
-                I had a strong interest in the subject and I planned to join university, but 
-                I dropped out noticing that I preferred something more coding oriented.
-            </p>
+                <h3 class="school hidden">School Experience (09/2014 - 06/2020)</h3>
+                <p class="school hidden">
+                    I went to High School in a small city called <a href="https://www.google.com/maps/@42.2998929,12.412173,3a,75y,326.42h,89.07t/data=!3m6!1e1!3m4!1sCMFujTUdJ3L_81YMgmyHzA!2e0!7i16384!8i8192?entry=ttu" target="_blank">Civita Castellana</a>                    near Viterbo with the idea of starting to study coding and informatics but in the end I studied chemistry, ending up becoming a chemical expert. I had a strong interest in the subject and I planned to join university, but I dropped
+                    out noticing that I preferred something more coding oriented.
+                </p>
             </section>
-            <br>
             <section class="coding">
-                <h3>Coding Experience (02/2023 - Now)</h3>
-            <p>
-                I went to High School in a small city called Civita Castellana
-                near Viterbo with the idea of starting to study coding and informatics
-                but in the end I studied chemistry, ending up becoming a chemical expert.
-                I had a strong interest in the subject and I planned to join university, but 
-                I dropped out noticing that I preferred something more coding oriented.
-            </p>
+                <h3 class="code hidden">Coding Experience (02/2023 - Now)</h3>
+                <p class="code hidden">
+                    During the early 2023, my last months in Ferrara for my university, I noticed my strong affinity with coding and the web dev, so I started my experience studying using <a href="https://www.codecademy.com/learn" target="_blank">CodeCademy</a>,
+                    a really well made website that gave and keeps giving me a lot of knowledge about coding.<br> I started with the Python language for it's simple syntax, then I moved to HTML/CSS/JS because I wanted to do FrontEnd, I'm still studying
+                    to this very day, and soon I'll be studying how to use the framework "React".
+                </p>
             </section>
-        </section>
-        <div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <h2 class="skill_title">My Skills</h2>
+            <section class="skills">
+                <div class="coding_skills">
+                    <h3>Coding Skills</h3>
+                    <div class="img_skills">
+                        <img src="./images/python.png" class="skill_img hidden">
+                        <img src="./images/github.png" class="skill_img hidden">
+                        <img src="./images/html.png" class="skill_img hidden">
+                        <img src="./images/css.png" class="skill_img hidden hate">
+                        <img src="./images/js.png" class="skill_img hidden">
+                    </div>
+                </div>
+                <h3>Personal Skills</h3>
+                <div class="personal_skill">
+                    <h4>Driving License</h4>
+                    <h4>English Level: C1</h4>
+                    <h4>Great Teamwork</h4>
+                    <h4>Initiative</h4>
+                    <h4>Always open to learn new things</h4>
+                    <h4>Creative</h4>
+                </div>
+            </section>
             <br>
         </div>
-        <section class="skills">
-            <h2>My Skills</h2>
-            <ul>
-                <li>C1 level for the English language</li>
-                <li>Basic level Python</li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
-        <script>
-            
-        </script>
-        <footer>
-            <h2>Phone: +39 366 685 5182</h2>
-            <h2>Email: lorem.ipsum@gmail.com</h2>
-            <h2>WhatsApp Number: 366 685 5182</h2>
-        </footer>
-    </body>
+    </div>
+    <footer>
+        <h2>Phone: +39 366 685 5182</h2>
+        <h2>Email: gaetano.adiletta12@gmail.com</h2>
+        <h2>WhatsApp Number: 366 685 5182</h2>
+    </footer>
+</body>
+
 </html>

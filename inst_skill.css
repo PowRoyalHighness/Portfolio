@@ -1,31 +1,90 @@
+.inst_title {
+    text-align: center;
+    text-decoration: underline;
+}
+
 .School {
-    background-color: #2f2f2f;
+    background-color: #1b1b1b;
     border-radius: 10px;
-    max-width: 600px;
-    padding: 10px;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid white;
 }
 
 .coding {
-    float: right;
-    background-color: #4BE280;
+    background-color: #1b1b1b;
     border-radius: 10px;
     max-width: 500px;
-    padding: 10px;
+    padding: 20px;
+    align-self: flex-end;
+    text-align: right;
+    border: 1px solid white;
 }
 
-.coding h3 {
-    color: rgb(35, 35, 35);
-}
-
-.coding p {
-    color: rgb(35, 35, 35);
+.skill_title {
+    align-self: center;
+    text-decoration: underline;
 }
 
 .skills {
-    padding-top: 30px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: fit-content;
+    border: 1px solid white;
 }
 
-.skills li {
-    list-style-type: none;
-    padding-top: 10px;
+.img_skills {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.skills img {
+    height: 100px;
+    width: auto;
+}
+
+.hate {
+    padding-left: 14.55px;
+    padding-right: 14.55px;
+}
+
+.instruction {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.code.hidden {
+    transform: translateX(100%)
+}
+
+.code.show {
+    transform: translateX(0);
+}
+
+.hidden:nth-child(2) {
+    transition-delay: 300ms;
+}
+
+.skill_img:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.skill_img:nth-child(3) {
+    transition-delay: 300ms;
+}
+
+.skill_img:nth-child(4) {
+    transition-delay: 400ms;
+}
+
+.skill_img:nth-child(5) {
+    transition-delay: 500ms;
 }

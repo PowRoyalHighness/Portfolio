@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Portfolio: Projects</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
+    <title>Portfolio: Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script defer src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
         <nav>
             <h1 class="name">Gaetano Adiletta</h1>
             <ul>
@@ -23,15 +28,85 @@
             </ul>
         </nav>
         <section class="projects">
-            <details>
-                    <h3>Test</h3>
-                <p>Test test Test test Test test Test test </p>
-            </details>
-        </section> 
-        <footer>
-            <h2>Phone: +39 366 685 5182</h2>
-            <h2>Email: lorem.ipsum@gmail.com</h2>
-            <h2>WhatsApp Number: 366 685 5182</h2>
-        </footer>
-    </body>
+            <h2>Projects</h2>
+            <div class="hidden">
+                <h3>Portfolio Website</h3>
+                <p>My first project was this Website, a challenge to myself to check how much I have learn overtime. I'm planning to make another version of this when I learn something about React.
+                </p>
+                <div class="images-1">
+                    <div class="hidden">
+                        <h4>The work-in-progress of the website inside VSC:</h4>
+                        <img src="./images/website_code_vsc.png" alt="">
+                    </div>
+                    <div class="hidden">
+                        <h4>The "About" page, unfinished:</h4>
+                        <img src="./images/about_page_ws.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden">
+                <h3>Mail Manager in Python</h3>
+                <p>My love for Python has grown over these months that I've learned how to code, and after a lot of small projects and test overtime, I decided to start something more complex for my mother: a Mail manager that allowed her to download each
+                    mail (both as HTML and txt file) and attachment in a folder with the same name as the subject of the mail, using the Google API. Planning to update it with CTk as a way to make it more user friendly and other functions.</p>
+                <div class="images-1">
+                    <div class="hidden">
+                        <h4>the login function of the Gmail manager:</h4>
+                        <img src="./images/gmail_auth_func.png" alt="">
+                    </div>
+                    <div class="hidden">
+                        <h4>This function allows to create a folder with the name of the object of the mail,retrieve the body of the mail (HTML/TXT) and relative attachment:</h4>
+                        <img src="./images/gmail_main_func.png" alt="">
+                    </div>
+                    <div class="hidden">
+                        <h4>the result of the program:</h4>
+                        <img src="./images/Gmail_result.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <section class="hidden">
+                <h2>Small Projects</h2>
+                <p>These are all small projects I did overtime just to try new things and to explore more the Python language.</p>
+                <br>
+                <div class="hidden">
+                    <h3>DnD Dice Roll</h3>
+                    <p>This is a really small and funny project I did to practice with python syntax at first, so I decided to play with the Tkinter module and create a small program that throws dice like in DnD.</p>
+                    <div class="small_img">
+                        <div class="hidden">
+                            <h4>the code for the "DnDBot":</h4>
+                            <img src="./images/dnd_code.png" alt="">
+                        </div>
+                        <div class="hidden">
+                            <h4>the main interface:</h4>
+                            <img src="./images/dnd_main.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden">
+                    <h3>Google Search</h3>
+                    <p>This program is part of something bigger that I was planning to do: A reverse search engine that allowed you to search using pictures, but I dropped the project focusing on something else.</p>
+                    <div class="small_img">
+                        <div class="hidden">
+                            <h4>the code of the program:</h4>
+                            <img src="./images/google_search_code.png" alt="">
+                        </div>
+                        <div class="hidden">
+                            <h4>the main window that allowed you to input subject of the research and the number of results:</h4>
+                            <img src="./images/google_search_main.png" alt="">
+                        </div>
+                        <div class="hidden">
+                            <h4>the output, with every link clickable:</h4>
+                            <img src="./images/google_search_result.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+    <footer>
+        <h2>Phone: +39 366 685 5182</h2>
+        <h2>Email: gaetano.adiletta12@gmail.com</h2>
+        <h2>WhatsApp Number: 366 685 5182</h2>
+    </footer>
+</body>
+
 </html>

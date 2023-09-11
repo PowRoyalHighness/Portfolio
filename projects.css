@@ -1,0 +1,32 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    min-height: 50dvh;
+    gap: 50px;
+    text-align: center;
+}
+
+.images-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 10px;
+}
+
+.images-1 img {
+    height: max-content;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.small_img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small_img img {
+    border-radius: 10px;
+    max-width: 50%;
+    align-self: center;
+}

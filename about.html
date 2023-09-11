@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="./about.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
-        <title>Portfolio: About Me</title>
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+    <title>Portfolio: About Me</title>
+</head>
+
+<body>
+    <div class="container">
         <nav>
-            <h2 class="name">Gaetano Adiletta</h2>
+            <h1 class="name">Gaetano Adiletta</h1>
             <ul>
                 <li class="nav-item">
                     <a href="./about.html"><button>About Me</button></a>
@@ -22,44 +26,40 @@
                     <a href="./projects.html"><button>Projects</button></a>
                 </li>
             </ul>
-        </nav> 
-            <section class="about">
-                <div class="left-side">
-                    <section class="personal">
-                        <h2>My Personal Life</h2>
-                        <p>
-                            I was born the 16th of August 2001 in Rome, Italy. I grew
-                            up in a small city near Rome called Riano and I started 
-                            appreciating science and technologies quite early in my
-                            life thanks to old Alberto Angela's VHS. 
-                        </p>
-                        <p>
-                            Playing with few consoles and curious on how the worked.
-                            When I was 10, I got my first computer and 
-                            there I started fidgeting around and play a little. 
-                        </p> 
-                    </section>
-                    <br>
-                    <section class="hobbies">
-                        <h2>These are a few hobbies and passions of mine:</h2>
-                        <ul>
-                            <li>Writing</li>
-                            <li>Photography</li>
-                            <li>Cooking</li>
-                            <li>Hiking</li>
-                            <li>Reading</li>
-                        </ul>
-                    </section>
+        </nav>
+        <h2 class="title">About Me</h2>
+        <section class="about">
+            <section class="personal">
+                <div>
+                    <h3 class="personal_title hidden">My Personal Life</h3>
+                    <p class="text_personal hidden">
+                        I was born in Rome the 16th of Agust 2001, grew up in a small city close to Rome, called Riano. Since my early age, I had a strong attraction to science and Technology, so I started opening and "take apart" old PCs, and I was so amazed by that world.
+                    </p>
+                    <p class="text_personal hidden">
+                        Slowly but surely I kept using computers and phones more and more, curious to understand how they worked, until I reached the point where I am now.
+                    </p>
                 </div>
-                <img src="./comm Iced (2).jpg">
+                <img src="./images/dfw9n44-c2a134c3-93f6-45d8-bd9c-cf057c3a4c2c.png" class="headshot hidden">
             </section>
-        <script>
-        </script>
-            <footer>
-                <h2>Phone: +39 366 685 5182</h2>
-                <h2>Email: lorem.ipsum@gmail.com</h2>
-                <h2>WhatsApp Number: 366 685 5182</h2>
-            </footer>
-        
-    </body>
+
+            <section class="hobbies">
+                <h3>Hobbies & Passions</h3>
+                <div>
+                    <h4 class="hobb hidden">Cooking is my biggest passion.</h4>
+                    <h4 class="hobb right_side hidden">I Code in my freetime, I love learning new languages.</h4>
+                    <h4 class="hobb hidden">I had a course in photography and it still is a strong interest of mine.</h4>
+                    <h4 class="hobb right_side hidden">I write too sometimes, lately it's not my main focus but I do write a lot.</h4>
+                    <h4 class="hobb hidden">Obviously if I write I need to draw my inspiration from something, so I read a lot too.</h4>
+                </div>
+            </section>
+        </section>
+        <br>
+    </div>
+    <footer>
+        <h2>Phone: +39 366 685 5182</h2>
+        <h2>Email: gaetano.adiletta12@gmail.com</h2>
+        <h2>WhatsApp Number: 366 685 5182</h2>
+    </footer>
+</body>
+
 </html>

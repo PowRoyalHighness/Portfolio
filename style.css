@@ -3,10 +3,14 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.container {
     flex-direction: column;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 30px;
 }
 
 nav {
@@ -24,7 +28,6 @@ nav button {
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
-
 }
 
 nav button:hover {
@@ -46,17 +49,25 @@ nav ul {
 h2 {
     font-family: "Roboto Condensed", sans-serif;
     color: white;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
 h3 {
     font-family: "Roboto Condensed", sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 18px;
 }
 
 p {
     display: block;
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Roboto", sans-serif;
     color: white;
 }
@@ -66,30 +77,44 @@ li {
     color: white;
 }
 
-
 .name {
     font-size: 48px;
     font-family: "Roboto Condensed", sans-serif;
-    background-image: linear-gradient(98deg, #4BE280 12% -27%, #D32295 100%);
-    -webkit-background-clip: text; 
-    background-clip: text;
-    color: transparent;
+    color: rgb(221, 221, 221);
 }
 
 footer {
-    margin-top: auto;
     display: flex;
-    background-color: rgb(255, 108, 0);
-    border-radius: 5px;
     position: fixed;
     bottom: 0px;
-    gap: auto;
-    padding-left: 3px;
-    padding-right: 3px;
-    align-content: center;
+    gap: 100px;
+    width: 100%;
+    justify-content: center;
+    background-color: inherit;
 }
 
 footer h2 {
-    font-size: 12px;
+    font-size: 14px;
     color: white;
+}
+
+a:link {
+    color: rgb(109, 109, 250);
+}
+
+a:visited {
+    color: rgb(109, 109, 250);
+}
+
+.hidden {
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
