@@ -9,6 +9,7 @@
     max-width: 500px;
     padding: 20px;
     border: 1px solid white;
+    overflow-x: hidden;
 }
 
 .coding {
@@ -19,6 +20,7 @@
     align-self: flex-end;
     text-align: right;
     border: 1px solid white;
+    overflow-x: hidden;
 }
 
 .skill_title {
