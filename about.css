@@ -52,14 +52,6 @@
     transition-delay: 400ms;
 }
 
-.headshot.hidden {
-    transform: translateX(100%)
-}
-
-.headshot.show {
-    transform: translateX(0);
-}
-
 .right_side.hidden {
     transform: translateX(100%);
 }
